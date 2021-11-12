@@ -1,7 +1,7 @@
 ---
 title: "与飞书的几位小伙伴聊聊程序员的那些事"
 date: 2021-10-26T11:32:10+08:00
-podcast: https://static.bytetalk.fm/podcasts/bytetalk-1.mp3
+podcast: https://static.bytedancer.co/podcasts/bytetalk-1.mp3
 podcast_duration: "61:04"
 podcast_bytes: 92876300
 episode: 1
