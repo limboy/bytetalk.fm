@@ -1,7 +1,7 @@
 ---
 title: "跟图拉鼎聊聊独立开发者的那些事"
 date: 2021-11-11T04:10:45+08:00
-podcast: https://static.bytedancer.co/podcasts/bytetalk-tualatrix.mp3
+podcast: https://files.bytetalk.fm/file/bytetalk/episode-3.mp3
 podcast_duration: "83:43"
 podcast_bytes: 120556274
 episode: 3

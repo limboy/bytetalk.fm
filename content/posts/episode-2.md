@@ -1,7 +1,7 @@
 ---
 title: "从程序员到潜水员，与赵青聊聊他的心路历程"
 date: 2021-11-02T14:39:21+08:00
-podcast: https://static.bytedancer.co/podcasts/bytetalk-zhaoqing.mp3
+podcast: https://files.bytetalk.fm/file/bytetalk/episode-2.mp3
 podcast_duration: "80:31"
 podcast_bytes: 115777120
 episode: 2
