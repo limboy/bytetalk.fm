@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+  <div class="archive">
+    {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).GroupByDate "2006" }} {{ range .Pages }}
+    <article class="archive-item">
+      {{ if .Params.cover }}
+      <img class="cover" src="{{ .Params.cover }}" />
+      {{ end }}
+      <div class="inner">
+        <h1>
+          <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>
+        </h1>
+        <div class="archive-item-date">{{ .Date.Format "2006-01-02" }}
+        {{ range (.GetTerms "tags") }}
+            <span> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></span>
+        {{ end }}
+        </div>
+        <div class="archive-item-content">{{ .Summary }}</div>
+
+
+      </div>
+    </article>
+    {{ end }} {{ end }}
+  </div>
+</main>
+
+{{ partial "footer.html" . }}

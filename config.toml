@@ -1,0 +1,4 @@
+baseURL = "https://bytetalk.fm"
+languageCode = "zh-cn"
+title = "ByteTalk"
+theme = ["bytetalk"]

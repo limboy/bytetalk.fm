@@ -1,0 +1,469 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  font-family: muli, avenir, "helvetica neue", -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", PingFang SC, Microsoft YaHei, Source Han Sans SC,
+    Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1,
+p,
+figure,
+pre,
+blockquote {
+  margin: 0 0 20px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 10px 0 15px;
+  line-height: 1.3rem;
+  color: #222;
+  border-bottom: 1px solid #ebedef;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding: 10px 0 0;
+  line-height: 1.3rem;
+  color: #222;
+}
+
+h3 {
+  font-size: 1.25rem;
+  padding: 10px 0 0;
+  line-height: 1.3rem;
+  color: #222;
+}
+
+h4 {
+  font-size: 1rem;
+  padding: 10px 0 0;
+  line-height: 1.3rem;
+  color: #222;
+}
+
+a {
+  outline: none;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+pre code {
+  display: block;
+  background-color: #f6f8fa;
+  max-height: 500px;
+  line-height: 1.45;
+  padding: 16px;
+}
+
+code {
+  max-width: 100%;
+  overflow: auto;
+  padding: 3px 8px;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 6px;
+  margin: 0;
+  padding: 0.2em 0.4em;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  padding: 0 15px;
+  border-left: 5px solid #e5e5e5;
+  color: #686868;
+  font-style: italic;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  padding: 15px 0;
+  position: relative;
+  background: #0a1922;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.nav {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-title {
+  font-size: 2rem;
+}
+
+.nav a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.nav-logo {
+  float: left;
+  margin-top: -11px;
+  transition: transform 150ms ease-out;
+}
+
+.nav-logo:hover {
+  transform: scale(1.1);
+}
+
+.nav-logo img {
+  display: block;
+  max-height: 40px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+  color: #999;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 900px;
+  line-height: 1.7;
+  color: #333;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0 40px;
+}
+
+.content p {
+  margin: 20px 0 0;
+}
+
+.archive-item-content {
+  padding: 10px 0 0;
+}
+
+.article-title {
+  color: #222;
+  margin: 0;
+  line-height: 1.3;
+  border-bottom: 0;
+  padding: 0;
+}
+
+.article-date {
+  color: #ccc;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.article-duration {
+  margin-top: 12px;
+  float: right;
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+  padding: 1px 5px;
+  font-weight: bold;
+  border-radius: 3px;
+  background: #bbb;
+  color: #fff;
+}
+
+.article-content {
+  padding: 25px 0 0;
+}
+
+.article-content p {
+  margin: 25px 0 20px;
+}
+
+.article-content a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.article-content a:hover,
+.article-content a:focus {
+  text-decoration: underline;
+}
+
+.article-content hr {
+  /*
+  width: 150px;
+  margin: 50px auto;
+  */
+  margin: 25px 0;
+  height: 0.25rem;
+  overflow: hidden;
+  border: none;
+  background: #e1e4e8;
+}
+
+.light {
+  border-radius: 3px;
+  position: relative;
+  margin: 40px 0;
+  font-size: 14px;
+}
+
+.highlight pre {
+  padding: 10px;
+  overflow: auto;
+}
+
+.highlight pre code {
+  padding: 10px;
+  background-color: transparent;
+}
+
+.archive {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.5em;
+  text-align: left;
+  color: #111;
+}
+
+.archive h1 {
+  margin-bottom: 10px;
+  line-height: 2.5rem;
+  max-width: 95%;
+}
+
+.archive h1 a {
+  text-decoration: underline;
+}
+
+.archive h1 a:hover {
+  color: #0366d6;
+}
+
+.archive-title {
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.archive-item .cover {
+  border-radius: 15px 15px 0 0;
+}
+
+.archive-item {
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.archive-item .inner {
+  margin: 0 0 40px 5px;
+  padding: 15px;
+  text-align: left;
+}
+
+.archive-item h1 {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.archive-item-date {
+  color: #555;
+  display: block;
+}
+
+.archive-item-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #222;
+  max-width: 600px;
+  text-overflow: ellipsis;
+}
+
+.archive-item-link:hover {
+  border-bottom-color: #222;
+}
+
+.footer {
+  padding: 0 0 30px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-links li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.footer-links a {
+  color: #888;
+  text-decoration: none;
+  transition: color 150ms ease;
+  margin: 0 10px;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: #222;
+}
+
+.footer-links li::before {
+  content: "/";
+  position: relative;
+  left: -2px;
+}
+
+.footer-links li:first-child::before {
+  display: none;
+}
+.footer-links-kudos img {
+  position: relative;
+  top: 6px;
+  margin-left: 2px;
+}
+
+.article {
+  margin-bottom: 50px;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+.article ul {
+  padding-left: 2rem;
+  margin-bottom: 16px;
+}
+
+.article ul ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.article li + li {
+  margin-top: 0.25rem;
+}
+
+.article p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+table {
+  display: block;
+  max-width: 100%;
+  overflow: auto;
+  width: 100%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+table tr {
+  border-top: 1px solid #c6cbd2;
+}
+
+table tr th {
+  border: 1px solid #e0e3e6;
+  padding: 6px 13px;
+}
+
+table tr td {
+  border: 1px solid #e0e3e6;
+  padding: 6px 13px;
+}
+
+.player {
+  margin: 10px 0 0;
+}
+
+.player audio {
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav {
+    padding: 0 15px;
+  }
+
+  .archive-item {
+    border-radius: 0;
+  }
+
+  .archive-item .cover {
+    border-radius: 0;
+  }
+
+  .article {
+    padding: 0 15px;
+  }
+}

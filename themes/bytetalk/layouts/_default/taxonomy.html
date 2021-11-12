@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+  <p>{{i18n "taxonomyPageList" .}}</p>
+  <div class="archive">
+    {{ range .Pages }}
+    <article class="archive-item">
+      {{ if .Params.cover }}
+      <img class="cover" src="{{ .Params.cover }}" />
+      {{ end }}
+      <div class="inner">
+        <h1>
+          <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>
+        </h1>
+        <div class="archive-item-date">{{ .Date.Format "2006-01-02" }}</div>
+        <div class="archive-item-content">{{ .Summary }}</div>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+
+  {{ partial "footer.html" . }}
+</main>

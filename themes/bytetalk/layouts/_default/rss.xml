@@ -1,0 +1,34 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>ByteTalk</title>
+    <link>{{ .Permalink }}</link>
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <itunes:author>Limboy</itunes:author>
+    <itunes:summary>聊聊程序员的故事</itunes:summary>
+    <description>聊聊程序员的故事</description>
+    <itunes:owner>
+      <itunes:name>Limboy</itunes:name>
+      <itunes:email>hi@limboy.me</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://i.v2ex.co/hayi2QuE.png" />
+    <itunes:category text="Technology" />
+    {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).GroupByDate "2006" }} {{ range .Pages }}
+    <item>
+      <title>{{ .Params.episode }}. {{ .Title }}</title>
+      <itunes:author>Limboy</itunes:author>
+      <itunes:title>{{ .Title }}</itunes:title>
+      <itunes:episode>{{ .Params.episode }}</itunes:episode>
+      <description>{{ "<![CDATA[" | safeHTML }}
+      {{ .Content }}
+      ]]></description>
+      <enclosure url="{{ .Params.podcast }}" length="{{ .Params.podcast_bytes}}" type="audio/x-m4a" />
+      <guid>{{ .Params.podcast }}</guid>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }} </pubDate>
+      <itunes:duration>{{ .Params.podcast_duration}}</itunes:duration>
+    </item>
+    {{ end }}
+    {{ end }}
+  </channel>
+</rss>
