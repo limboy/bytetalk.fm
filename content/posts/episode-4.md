@@ -1,5 +1,5 @@
 ---
-title: "跟 Randy 聊聊编程、创作那些事"
+title: "跟 Randy 聊聊博客、编程、创作那些事"
 date: 2021-11-17T12:15:13+08:00
 podcast: https://files.bytetalk.fm/file/bytetalk/episode-4.mp3
 podcast_duration: "71:10"
