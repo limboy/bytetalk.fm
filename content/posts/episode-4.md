@@ -55,7 +55,7 @@ episode: 4
 - [Cusdis](https://cusdis.com)
 - [月亮与六便士](https://book.douban.com/subject/26954760/)
 - [刀锋](https://book.douban.com/subject/2035162/)
-- [松本行弘的程序世界](https://book.douban.com/subject/2035162/)
+- [松本行弘的程序世界](https://book.douban.com/subject/6756090/)
 - [精通正则表达式](https://book.douban.com/subject/2154713/)
 - [Logseq](https://logseq.com)
 
