@@ -145,6 +145,10 @@ episode: 6
 - Anthony's Twitter: https://twitter.com/antfu7
 - Anthony's Github: https://github.com/antfu
 
+### Music
+
+片头曲：[Odd Taxi](https://movie.douban.com/subject/35332568/)
+
 ### 节目收听方式
 
 - 除了 Apple Podcast 国区的各大泛用型播客平台
