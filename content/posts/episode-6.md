@@ -1,7 +1,10 @@
 ---
 title: '跟 Anthony Fu 聊聊全职开源和他的故事'
 date: 2021-12-09T21:21:11+08:00
-draft: true
+podcast: https://files.bytetalk.fm/file/bytetalk/episode-6.mp3
+podcast_duration: '44:23'
+podcast_bytes: 63907340
+episode: 6
 ---
 
 > 和不同的人聊天，会收获很多不同的东西，作为一个「老」程序员，我想跟不同领域的程序员们聊聊他们的故事、经历和感悟，或许也可以给正在收听的你一些启发。
