@@ -39,5 +39,6 @@ episode: 3
 
 ### 节目收听方式
 
+- 除了 Apple Podcast 国区的各大泛用型播客平台
 - [小宇宙 - ByteTalk](https://www.xiaoyuzhoufm.com/podcast/6177bab6b69226ed16a3ed41)
 - [订阅 Feed URL](https://bytetalk.fm/index.xml)
