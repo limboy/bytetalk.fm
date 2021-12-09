@@ -21,7 +21,7 @@ episode: 6
 
 **Limboy:** hi 大家好，欢迎收听 ByteTalk, ByteTalk 是一个程序员访谈节目，我是主持人 Limboy，今天请到的嘉宾是 Anthony Fu，他主要活跃在国外的开源社区。今天我们就来聊聊他的故事。欢迎 Anthony Fu。
 
-**Anthony:** 大家好，我叫 Anthony Fu，我是 Vue 和 vite 的核心团队成员，同时也是一些开源项目，如 [Vueuse](https://vueuse.org), [sli.dev](https://sli.dev), UnoCSS(https://unocss.antfu.me) 这些开源项目的作者。我之前在 Github 上做了一段时间的全职开源，那现在加入了 NuxtLab 主要参与 [Nuxt](https://nuxtjs.org) 3 的开发和 Vite 的整合。
+**Anthony:** 大家好，我叫 Anthony Fu，我是 Vue 和 vite 的核心团队成员，同时也是一些开源项目，如 [Vueuse](https://vueuse.org), [sli.dev](https://sli.dev), UnoCSS(https://unocss.antfu.me) 这些开源项目的作者。我之前在 Github 上做了一段时间的全职开源，那现在加入了 NuxtLab 主要参与 [Nuxt](https://nuxtjs.org) 3 的开发和 [Vite](http://vitejs.dev) 的整合。
 
 **Limboy:** 好的，那先来聊聊你是什么时候开始接触编程的吧。
 
