@@ -7,10 +7,6 @@ podcast_bytes: 120556274
 episode: 3
 ---
 
-> 和不同的人聊天，会收获很多不同的东西，作为一个「老」程序员，我想跟不同领域的程序员们聊聊他们的故事、经历和感悟，或许也可以给正在收听的你一些启发。
->
-> 如果你也有想聊的，欢迎邮件沟通：hi@limboy.me，一般会在两天内回复。
-
 本期节目请到的嘉宾是苹果生态（iOS / Mac）的独立开发者[图拉鼎](https://imtx.me)，有多年的开发经验，也有不错的作品（Manico、One Switch、PasteNow 等）。今天就来跟他聊聊独立开发者的那些事。
 
 <!--more-->
@@ -42,3 +38,7 @@ episode: 3
 - 除了 Apple Podcast 国区的各大泛用型播客平台
 - [小宇宙 - ByteTalk](https://www.xiaoyuzhoufm.com/podcast/6177bab6b69226ed16a3ed41)
 - [订阅 Feed URL](https://bytetalk.fm/index.xml)
+
+> 和不同的人聊天，会收获很多不同的东西，作为一个「老」程序员，我想跟不同领域的程序员们聊聊他们的故事、经历和感悟，或许也可以给正在收听的你一些启发。
+>
+> 欢迎在节目下方留言，如果你也有想聊的，可以邮件沟通：hi@limboy.me，一般会在两天内回复。

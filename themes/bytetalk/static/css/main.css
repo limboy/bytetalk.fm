@@ -214,6 +214,10 @@ blockquote {
   padding: 0;
 }
 
+.article-content li {
+  padding: 0.1rem 0;
+}
+
 .article-date {
   color: #ccc;
   display: block;
