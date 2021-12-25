@@ -1,6 +1,6 @@
 ---
 title: '跟 Logseq 的创造者天生聊聊 Logseq 的故事'
-date: 2021-12-23T22:08:33+08:00
+date: 2021-12-25T15:08:33+08:00
 podcast: https://files.bytetalk.fm/file/bytetalk/episode-7.1.mp3
 podcast_duration: '97:35'
 podcast_bytes: 140529290
