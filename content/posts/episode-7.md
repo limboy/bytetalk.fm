@@ -7,7 +7,7 @@ podcast_bytes: 140529290
 episode: 7
 ---
 
-[Logseq](https://logseq.com) 是一款注重隐私（数据存储在本地）、开源的笔记工具。上手简单，又足够灵活，可以记录想法、笔记、管理 Todo 等等。我自己近一个月每天都用它来记录各种事项。这期节目邀请到了 Logseq 的创造者秦天生（tiensonqin），来聊聊 Logseq 背后的故事和理念。
+[Logseq](https://logseq.com) 是一款注重隐私（数据存储在本地）、开源的笔记工具。上手简单，又足够灵活，可以记录想法、笔记、管理 Todo 等等。我自己近一个月每天都用它来记录各种事项。这期节目有幸邀请到了 Logseq 的创造者秦天生（tiensonqin），来聊聊 Logseq 背后的故事和理念。
 
 <!--more-->
 
