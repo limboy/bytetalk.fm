@@ -12,7 +12,7 @@ episode: 7
 <!--more-->
 
 - 嘉宾：[秦天生](http://twitter.com/tiensonqin)
-- 主播：[limboy](http://twitter.com/lzyy), [laike9m](http://twitter.com/laike9m)
+- 主播：[limboy](http://twitter.com/_limboy), [laike9m](http://twitter.com/laike9m)
 
 ## 时间线
 
